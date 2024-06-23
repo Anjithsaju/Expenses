@@ -1,10 +1,11 @@
-import Bar from "./components/Bar";
+
 import ExpenseSheet from "./components/ExpenseSheet";
+import TotalExp from "./components/TotalExp";
 function App() {
   return (
     <>
       <div>
-        <Bar />
+       <TotalExp/>
       </div>
       <div>
         <ExpenseSheet />
