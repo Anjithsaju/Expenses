@@ -1,14 +1,15 @@
-
 import ExpenseSheet from "./components/ExpenseSheet";
 import TotalExp from "./components/TotalExp";
 function App() {
   return (
     <>
       <div>
-       <TotalExp/>
-      </div>
-      <div>
-        <ExpenseSheet />
+        <div>
+          <TotalExp />
+        </div>
+        <div>
+          <ExpenseSheet />
+        </div>
       </div>
     </>
   );
