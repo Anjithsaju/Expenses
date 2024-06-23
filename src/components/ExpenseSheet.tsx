@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Card from "./Card";
 import "./expsheet.css";
+
 function ExpenseSheet() {
   const [database, setDatabase] = useState<any>(null);
   const [individualDetails, setIndividualDetails] = useState<any>(null);
