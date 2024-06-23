@@ -1,0 +1,27 @@
+.expsheet {
+    display: grid;
+        grid-auto-flow: column;
+        /* grid-auto-columns: 80%; */
+        width: auto;
+        overflow-x: auto;
+        overscroll-behavior-inline: contain;
+        gap:15px
+  }
+  @media screen and (max-width:400px)
+  {
+    .expsheet {
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+        grid-auto-flow: column;
+        /* grid-auto-columns: 80%; */
+        width: auto;
+        overflow-x: auto;
+        overscroll-behavior-inline: contain;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin: 10px;
+        gap:15px
+       
+  }
+  }
