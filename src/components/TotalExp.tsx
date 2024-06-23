@@ -71,7 +71,7 @@ function TotalExp() {
             <div
               className="progress-bar progress-bar-striped bg-danger progress-bar-animated"
               style={{
-                width: `${calculateProgressValue(Expense["Total"], 50000)}%`,
+                width: `${calculateProgressValue(Expense["Total"], 100000)}%`,
               }}
             ></div>
           </div>
