@@ -1,5 +1,4 @@
 import ExpenseSheet from "./components/ExpenseSheet";
-import MyComponent from "./components/MyComponent";
 import TotalExp from "./components/TotalExp";
 function App() {
   return (
@@ -13,7 +12,7 @@ function App() {
         </div>
         <div style={{ display:'flex',alignItems: 'center', margin: '10px',justifyContent: "center" }}>
         <a className="btn btn-primary" href="https://anjithsaju.github.io/" role="button" style={{ background:"green",border:"none", margin: '20px' }}>Home</a>
-        <MyComponent/>
+        <a className="btn btn-primary" href="https://anjithsaju.github.io/Reset/" role="button" style={{border:"none", margin: '20px' }}>Reset</a>
         </div>
       </div>
     </>
