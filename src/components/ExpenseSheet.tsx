@@ -74,11 +74,7 @@ function ExpenseSheet() {
         PersonName="Adith"
         PersonExpense={individualDetails["Adith"]}
       />
-      <Card
-        items={database["Richol"]}
-        PersonName="Richol"
-        PersonExpense={individualDetails["Richol"]}
-      />
+   
       <Card
         items={database["Anadhakrishnan"]}
         PersonName="Anadhakrishnan"
